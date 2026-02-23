@@ -1,0 +1,108 @@
+/* ===== BODY ===== */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #5c4033, #8b5e3c);
+    color: #f5f1e8;
+}
+
+/* ===== NAVBAR ===== */
+header {
+    background-color: rgba(255, 248, 240, 0.9);
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 15px;
+    color: #5c4033;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #8b5e3c;
+    border-bottom: 2px solid #8b5e3c;
+}
+
+/* ===== JUDUL ===== */
+h2 {
+    font-size: 26px;
+    margin-bottom: 30px;
+    color: #fff8f0;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+/* ===== CONTAINER TESTIMONI (HORIZONTAL) ===== */
+#daftarTestimoni {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 20px;
+    scroll-behavior: smooth;
+}
+
+/* Scrollbar aesthetic */
+#daftarTestimoni::-webkit-scrollbar {
+    height: 8px;
+}
+
+#daftarTestimoni::-webkit-scrollbar-thumb {
+    background-color: #3e2723;
+    border-radius: 10px;
+}
+
+/* ===== TESTIMONI BOX ===== */
+.testimoni-box {
+    min-width: 300px;
+    max-width: 300px;
+    background-color: #fff8f0;
+    color: #5c4033;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+    text-align: left;
+    flex-shrink: 0;
+    transition: 0.3s ease;
+}
+
+.testimoni-box:hover {
+    transform: translateY(-8px);
+}
+
+.testimoni-box p {
+    margin: 8px 0;
+}
+
+/* ===== BUTTON ===== */
+button {
+    display: block;
+    margin: 30px auto;
+    background-color: #3e2723;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #5c4033;
+    transform: scale(1.05);
+}
+
+/* ===== FOOTER ===== */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(255, 248, 240, 0.8);
+    color: #5c4033;
+    margin-top: 40px;
+    font-size: 14px;
+}
